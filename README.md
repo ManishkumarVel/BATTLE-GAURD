@@ -2,6 +2,8 @@
 Advanced Military Access Control and Authentication System Using RFID and CAN Communication
 BattleGuard Project
 
+
+
 📌 1. Project Overview
 BattleGuard is a multi-node embedded access-control and authentication system designed for secure entry management in restricted areas.
 
