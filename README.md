@@ -20,6 +20,8 @@ Servo Motor Control
 LCD Interfacing
 GPIO
 Multi-node Embedded System Design
+
+
 📝 2. Abstract
 Security and controlled access are important requirements in restricted and sensitive environments. Manual verification can be time-consuming and may increase the possibility of unauthorized access.
 
@@ -35,6 +37,8 @@ For an unauthorized RFID tag, the gate remains closed while the 20×4 LCD displa
 
 The project demonstrates a practical distributed multi-node embedded system using CAN communication.
 
+
+
 🎯 3. Objectives
 Implement RFID-based authentication.
 Read RFID data using UART communication.
@@ -46,6 +50,8 @@ Display authentication status using a 20×4 LCD.
 Provide LED and buzzer alerts for unauthorized access.
 Send GSM notifications for unauthorized access.
 Demonstrate multi-node communication using LPC2129.
+
+
 🏗️ 4. System Architecture
                          ┌─────────────────────┐
                          │      RFID TAG       │
@@ -88,6 +94,8 @@ Demonstrate multi-node communication using LPC2129.
                 │ Servo Motor  │
                 │ Gate Control │
                 └──────────────┘
+
+
 🔧 5. Hardware Components
 Microcontroller
 LPC2129 ARM7TDMI-S
@@ -115,11 +123,15 @@ Power Supply
 Connecting Wires
 CAN Transceiver / Interface
 Development Board
+
+
 💻 6. Software and Development Tools
 Embedded C
 Keil µVision
 ARM7 LPC2129 Development Environment
 CAN Debugging Tools
+
+
 ⚙️ 7. Working Principle
 Step 1 — RFID Scanning
 The RFID tag is placed near the EM-18 RFID reader.
@@ -324,6 +336,8 @@ Gate Remains Closed
 LCD Shows INVALID RFID
     ↓
 LED / Buzzer Alert
+
+
 ✅ 8. Advantages
 Provides secure RFID-based authentication.
 Prevents unauthorized access.
@@ -335,6 +349,8 @@ LED and buzzer provide visual and audible alerts.
 Modular multi-node architecture makes the system easy to expand.
 Reduces the need for manual access verification.
 Suitable for real-time access-control applications.
+
+
 🎯 9. Applications
 Military base access control
 Defence facility security
@@ -346,6 +362,8 @@ Railway and metro restricted-area access
 Warehouse and storage-area security
 Parking and vehicle access control
 Smart building access control
+
+
 👤 Author
-Manish kumar V B.E. Electrical and Electronics Engineering Graduate Embedded Systems & Embedded C Aspirant
+Manish kumar V B.E Electronics and Communication Engineering Graduate Embedded Systems & Embedded C Aspirant
 
