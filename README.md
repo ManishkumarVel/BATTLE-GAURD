@@ -40,6 +40,7 @@ The project demonstrates a practical distributed multi-node embedded system usin
 
 
 🎯 3. Objectives
+
 Implement RFID-based authentication.
 Read RFID data using UART communication.
 Compare the scanned RFID with a predefined authorized ID.
@@ -53,6 +54,7 @@ Demonstrate multi-node communication using LPC2129.
 
 
 🏗️ 4. System Architecture
+
                          ┌─────────────────────┐
                          │      RFID TAG       │
                          └──────────┬──────────┘
@@ -97,6 +99,7 @@ Demonstrate multi-node communication using LPC2129.
 
 
 🔧 5. Hardware Components
+
 Microcontroller
 LPC2129 ARM7TDMI-S
 ARM7 microcontroller
@@ -140,6 +143,7 @@ The reader detects the RFID tag and obtains its identification value.
 
 The RFID data is transferred to the LPC2129 through UART communication.
 
+
 RFID Tag
    ↓
 EM-18 RFID Reader
@@ -168,6 +172,7 @@ Compare with Authorized ID
    │         │
    ▼         ▼
  VALID     INVALID
+ 
 Step 3 — CAN Communication
 After RFID authentication, ECU1 sends the authentication result to ECU2 and ECU3 through the CAN bus.
 
